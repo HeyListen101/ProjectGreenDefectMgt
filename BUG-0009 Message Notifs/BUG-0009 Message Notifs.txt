@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Functional [Volunteer Opportunity Search]: Message Notifications Delayed or Not Delivered
+
+[Summary]
+ Any message sent from one user to another has a late notification or notification at all for the receiver user.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Messaging and notifications enabled
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Log in with two test accounts.
+ 2. Send a message from Account A to Account B.
+ 3. Monitor Account B for notifications.
+
+[Actual results]
+Message is received in chat UI after app is reopened, but no real-time notification appears.
+
+[Expected results]
+User should be notified immediately upon receiving a new message.
+
+[Additional information]
+No push service call recorded in logs.
+
+[Is this Breakage?]
+ No, missed from previous pass
+
+[Previous code tested]
+ GR.010.002
+
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 8. Reproducible, but requires additional setup
+
+[Impacted Test Cases]
+ VOL-0009
+
+[Impact Sizing (in days)]
+ Less than a day

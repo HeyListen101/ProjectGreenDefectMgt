@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Functional [Volunteer Opportunity Search]: New Event Push Notifications Not Triggering
+
+[Summary]
+ Registered users does not receive any push notifications from newly published volunteer events.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Push notifications enabled in settings
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Log in as a registered user with push notifications enabled.
+ 2. Have a moderator create and publish a new volunteer event.
+ 3. Wait for notification or check device status bar.
+
+[Actual results]
+ No push notification is delivered to the user’s device.
+
+[Expected results]
+ User should receive a push notification when a new event is created.
+
+[Additional information]
+ Notifications are working for reminders but not new event creation.
+
+[Is this Breakage?]
+ No, missed from previous pass
+
+[Previous code tested]
+ GR.010.002
+
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ VOL-0006
+
+[Impact Sizing (in days)]
+ Less than a day

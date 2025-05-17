@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Functional [Volunteer Opportunity Search]: Users Unable to Unregister From a Joined Event
+
+[Summary]
+ Registered users aren't able to unregister from an already joined event.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Volunteering module active
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Register for an upcoming volunteer opportunity.
+ 2. Navigate to "My Events."
+ 3. Tap "Unregister" on any listed event.
+
+[Actual results]
+ No action occurs, and user remains registered.
+
+[Expected results]
+ User should be removed from the list of participants and receive confirmation.
+
+[Additional information]
+ Database shows no change in registration status.
+
+[Is this Breakage?]
+ Yes, see previous code tested
+
+[Previous code tested]
+ GR.010.002
+
+[Severity: How does this problem impact the customer/user?]
+ 4. Crash or hang cleared by reload / Core function blocked
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ VOL-0008
+
+[Impact Sizing (in days)]
+ Less than a day

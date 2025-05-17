@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Functional [Volunteer Opportunity Search]: Reported Messages Not Flagged or Reviewed 
+
+[Summary]
+ When a user reports a message from another user, this report is not received by a moderator allowing the misconception that there are no reported messages for the moderator and that all reported messages are ignored for the user.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Reporting module enabled
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Send a test message with offensive content from Account A to Account B.
+ 2. From Account B, long-press and report the message.
+ 3. Log in as a moderator and check reported message dashboard.
+
+[Actual results]
+ Reported message is not shown in moderator panel or logs.
+
+[Expected results]
+ Reported messages should be logged and appear in the moderator review queue.
+
+[Additional information]
+ Backend shows no DB entry or flag status set.
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ GR.010.002
+
+[Severity: How does this problem impact the customer/user?]
+ 8. Data loss / Required function is missing
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ VOL-0010
+
+[Impact Sizing (in days)]
+ Less than a day

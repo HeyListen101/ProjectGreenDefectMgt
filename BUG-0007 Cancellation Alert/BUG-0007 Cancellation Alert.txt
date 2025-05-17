@@ -1,0 +1,46 @@
+ProjectGreen v1.0 Integration [Volunteer Opportunity Search]: Cancellation Alert Not Sent to Registered Users
+
+[Summary]
+ When an organizer-role user cancels an event, no cancellation alert is sent to all the pre-registered users.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Event registration and notification permissions enabled
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Register for an upcoming volunteer event.
+ 2. Log out or stay idle.
+ 3. Have an organizer cancel the event.
+ 4. Wait for any notification regarding the cancellation.
+
+[Actual results]
+ User receives no cancellation alert.
+
+[Expected results]
+ A cancellation notification should be sent to all registered users.
+
+[Additional information]
+ Notification logs show no outgoing trigger for cancellation.
+
+[Is this Breakage?]
+ Yes, see previous code tested
+
+[Previous code tested]
+ GR.010.002
+
+[Severity: How does this problem impact the customer/user?]
+ 8. Data loss / Required function is missing
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ VOL-0006
+
+[Impact Sizing (in days)]
+ Less than a day
