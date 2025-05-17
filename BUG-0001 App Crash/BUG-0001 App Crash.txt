@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Integration [Event Management]: App Crash when adding Event to Calendar
+
+[Summary]
+ When attempting to add an event to the calendar component, the application hangs and crashes.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Debug build with calendar sync enabled
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Open the app and log in.
+ 2. Navigate to an upcoming volunteer event.
+ 3. Tap “Add to Calendar”.
+
+[Actual results]
+ The app crashes or fails silently without adding the event to the device calendar.
+
+[Expected results]
+ Event should be added to the user's default calendar application with correct details.
+
+[Additional information]
+ None.
+
+[Is this Breakage?]
+ Yes, see previous code tested
+
+[Previous code tested]
+ GR.010.001
+
+[Severity: How does this problem impact the customer/user?]
+ 6. Crash or hang cleared by restart / Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ EVE-0003
+
+[Impact Sizing (in days)]
+ Less than a day

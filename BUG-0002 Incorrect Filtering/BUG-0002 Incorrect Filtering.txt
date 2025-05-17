@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Functional [Event Management]: Incorrect Filtering of Events
+
+[Summary]
+ When trying to search an event with any filter, the results shown does not match the selected filter.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Default filters enabled
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Open the app and go to the Events section.
+ 2. Select a filter (e.g., "Environmental").
+ 3. Observe the event list.
+
+[Actual results]
+ Filtered results do not match the selected category; some relevant events are missing.
+
+[Expected results]
+ Only events tagged as “Environmental” should be shown, and all relevant events should be included.
+
+[Additional information]
+ FilteredEventsList returns empty array despite category being assigned.
+
+[Is this Breakage?]
+ No, missed from previous pass
+
+[Previous code tested]
+ GR.010.001
+
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ EVE-0004
+
+[Impact Sizing (in days)]
+ Less than a day

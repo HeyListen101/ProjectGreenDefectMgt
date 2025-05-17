@@ -1,0 +1,45 @@
+ProjectGreen v1.0 UI [User Profile]: New Inputted User Details won't Save
+
+[Summary]
+ When changing any user profile detail then saving them, it reverts to old or previous information upon app reload. 
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Profile service active
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Navigate to Profile section.
+ 2. Edit name, bio, or avatar.
+ 3. Tap "Save" and refresh.
+
+[Actual results]
+ Changes appear to save but revert after refreshing the screen.
+
+[Expected results]
+ Changes should be saved and persist across sessions and refreshes.
+
+[Additional information]
+ Backend PATCH request returns 200 OK, but data not persisted in DB.
+
+[Is this Breakage?]
+ No, missed from previous pass
+
+[Previous code tested]
+ GR.010.001
+
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ UI-0003
+
+[Impact Sizing (in days)]
+ Less than a day

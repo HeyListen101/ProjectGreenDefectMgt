@@ -1,0 +1,45 @@
+ProjectGreen v1.0 UI [Event Management]: Unresponsive Button
+
+[Summary]
+ "Edit Title" button is unresponsive to any user action as a moderator, thus the app cannot perform that function.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Moderator role active
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Log in as moderator.
+ 2. Create a new event.
+ 3. Try to edit title or date post-creation.
+
+[Actual results]
+ Edit button is disabled or unresponsive, preventing any changes.
+
+[Expected results]
+ Moderators should be able to edit event details after creation.
+
+[Additional information]
+ Possibly a UI state misfire or missing permissions check.
+
+[Is this Breakage?]
+ Yes, see previous code tested
+
+[Previous code tested]
+ GR.010.001
+
+[Severity: How does this problem impact the customer/user?]
+ 6. Crash or hang cleared by restart / Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ UI-0004
+
+[Impact Sizing (in days)]
+ Less than a day

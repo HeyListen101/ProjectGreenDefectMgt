@@ -1,0 +1,45 @@
+ProjectGreen v1.0 Functional [Volunteer Opportunity Search]: Search Results not Sorted by Relevance 
+
+[Summary]
+ When trying to do a volunteer opportunity search with a specific keyword, results are not accurately sorted by their relevance.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Default sort = "Most Relevant"
+ Hardware specifications: Xiaomi Redmi Note 10S
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Go to Volunteer Search.
+ 2. Search with keyword "teaching".
+ 3. Observe the sort order.
+
+[Actual results]
+ Older or less relevant events appear at the top of the list.
+
+[Expected results]
+ Most recent and most relevant results should appear first in the list.
+
+[Additional information]
+ Relevance algorithm needs rechecking against keyword weights.
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ GR.010.001
+
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 8. Reproducible, but requires additional setup
+
+[Impacted Test Cases]
+ VOL-0005
+
+[Impact Sizing (in days)]
+ Less than a day
